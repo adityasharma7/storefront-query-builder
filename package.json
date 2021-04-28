@@ -7,7 +7,7 @@
   "description": "Storefront Query Builder",
   "main": "lib/index.js",
   "scripts": {
-    "build": "tsc --declaration",
+    "build": "tsc --declaration --target es6",
     "dev": "tsc --declaration -w"
   },
   "types": "lib/index.d.ts",
